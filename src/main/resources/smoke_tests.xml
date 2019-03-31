@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke auto tests">
+    <test name="Smoke verify main page" preserve-order="false" verbose="1">
+        <packages>
+            <package name="mainpage.*"/>
+        </packages>
+    </test>
+    <test name="Smoke sign in" preserve-order="false" verbose="1">
+        <packages>
+            <package name="signportal.*"/>
+        </packages>
+    </test>
+    <test name="Smoke athlete" preserve-order="false" verbose="1">
+        <packages>
+            <package name="athlete.*"/>
+        </packages>
+    </test>
+    <test name="Smoke coach" preserve-order="false" verbose="1">
+        <packages>
+            <package name="coach.*"/>
+        </packages>
+    </test>
+</suite>
